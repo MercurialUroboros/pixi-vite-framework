@@ -53,7 +53,10 @@ class AssetLoader {
         category,
         name,
         ext,
-        url: assetPath.replace(/.*public/, ""),
+        url:
+          assetPath.replace(/.*public/, "") +
+          // Add cache busting
+          `?version=${import.meta.env.VITE_APP_VERSION}`,
       })
     })
 
@@ -66,7 +69,6 @@ class AssetLoader {
     for (const asset of sceneAssets) {
       Assets.add(asset.name, asset.url)
     }
-
     const resources = await Assets.load(
       sceneAssets.map((asset) => asset.name),
       (a) => {
