@@ -1,0 +1,41 @@
+
+marker.png
+size: 508,184
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dolly_bg
+  rotate: true
+  xy: 387, 83
+  size: 99, 119
+  orig: 102, 120
+  offset: 1, 1
+  index: -1
+dolly_element2
+  rotate: false
+  xy: 387, 10
+  size: 50, 71
+  orig: 50, 72
+  offset: 0, 1
+  index: -1
+dolly_element3
+  rotate: false
+  xy: 439, 33
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+glow_2
+  rotate: true
+  xy: 2, 2
+  size: 180, 204
+  orig: 296, 212
+  offset: 60, 2
+  index: -1
+glowring_00018
+  rotate: false
+  xy: 208, 5
+  size: 177, 177
+  orig: 180, 180
+  offset: 2, 1
+  index: -1

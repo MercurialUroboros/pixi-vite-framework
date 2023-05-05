@@ -1,0 +1,839 @@
+{
+  "skeleton": {
+    "hash": "XzgO7n6Gm0cux+L0QiTAF0gH+ko",
+    "spine": "3.8.99",
+    "x": -148,
+    "y": -89.39,
+    "width": 296,
+    "height": 254.04,
+    "images": "./images/",
+    "audio": "G:/_QUICK/Classic Roulette/SPINE/Dolly"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "y": 58.65
+    },
+    {
+      "name": "glow",
+      "parent": "root"
+    },
+    {
+      "name": "glow2",
+      "parent": "root"
+    },
+    {
+      "name": "glow3",
+      "parent": "root"
+    },
+    {
+      "name": "glowring",
+      "parent": "root",
+      "y": -58.04
+    },
+    {
+      "name": "glowring2",
+      "parent": "root",
+      "y": -58.04
+    }
+  ],
+  "slots": [
+    {
+      "name": "glowring_00018",
+      "bone": "glowring",
+      "color": "ffffff00",
+      "attachment": "glowring_00018",
+      "blend": "additive"
+    },
+    {
+      "name": "glowring_18",
+      "bone": "glowring2",
+      "color": "ffffff00",
+      "attachment": "glowring_00018",
+      "blend": "additive"
+    },
+    {
+      "name": "dolly_bg",
+      "bone": "root",
+      "color": "ffffff6a",
+      "attachment": "dolly_bg"
+    },
+    {
+      "name": "dolly_element",
+      "bone": "root",
+      "attachment": "dolly_element2",
+      "blend": "additive"
+    },
+    {
+      "name": "dolly_element3",
+      "bone": "root",
+      "attachment": "dolly_element3",
+      "blend": "additive"
+    },
+    {
+      "name": "dolly_element2",
+      "bone": "root",
+      "attachment": "dolly_element2",
+      "blend": "additive"
+    },
+    {
+      "name": "dolly_element4",
+      "bone": "root",
+      "attachment": "dolly_element3",
+      "blend": "additive"
+    },
+    {
+      "name": "glow_2",
+      "bone": "glow",
+      "attachment": "glow_2",
+      "blend": "additive"
+    },
+    {
+      "name": "glow_3",
+      "bone": "glow2",
+      "attachment": "glow_2",
+      "blend": "additive"
+    },
+    {
+      "name": "glow_4",
+      "bone": "glow3",
+      "attachment": "glow_2",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "dolly_bg": {
+          "dolly_bg": {
+            "width": 102,
+            "height": 120
+          }
+        },
+        "dolly_element": {
+          "dolly_element2": {
+            "x": 24.96,
+            "y": -23.47,
+            "scaleX": -1,
+            "width": 50,
+            "height": 72
+          }
+        },
+        "dolly_element2": {
+          "dolly_element2": {
+            "x": -25.01,
+            "y": -23.53,
+            "width": 50,
+            "height": 72
+          }
+        },
+        "dolly_element3": {
+          "dolly_element3": {
+            "x": 24.96,
+            "y": 36.49,
+            "scaleX": -1,
+            "width": 50,
+            "height": 48
+          }
+        },
+        "dolly_element4": {
+          "dolly_element3": {
+            "x": -25.04,
+            "y": 36.48,
+            "width": 50,
+            "height": 48
+          }
+        },
+        "glow_2": {
+          "glow_2": {
+            "width": 296,
+            "height": 212
+          }
+        },
+        "glow_3": {
+          "glow_2": {
+            "width": 296,
+            "height": 212
+          }
+        },
+        "glow_4": {
+          "glow_2": {
+            "width": 296,
+            "height": 212
+          }
+        },
+        "glowring_00018": {
+          "glowring_00018": {
+            "width": 180,
+            "height": 180
+          }
+        },
+        "glowring_18": {
+          "glowring_00018": {
+            "width": 180,
+            "height": 180
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "marker_continue": {
+      "slots": {
+        "dolly_bg": {
+          "color": [
+            {
+              "color": "ffffff4c"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff76"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff16"
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffff76"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff4c"
+            }
+          ]
+        },
+        "dolly_element": {
+          "color": [
+            {
+              "color": "b0effdac"
+            },
+            {
+              "time": 0.5667,
+              "color": "5bd7ff31"
+            },
+            {
+              "time": 1.2667,
+              "color": "e9fffcff"
+            },
+            {
+              "time": 1.6667,
+              "color": "b0effdac"
+            }
+          ]
+        },
+        "dolly_element2": {
+          "color": [
+            {
+              "color": "94e7fe82"
+            },
+            {
+              "time": 0.3667,
+              "color": "5bd7ff31"
+            },
+            {
+              "time": 1.0667,
+              "color": "e9fffcff"
+            },
+            {
+              "time": 1.6667,
+              "color": "94e7fe82"
+            }
+          ]
+        },
+        "dolly_element3": {
+          "color": [
+            {
+              "color": "76dffe59"
+            },
+            {
+              "time": 0.1667,
+              "color": "5bd7ff31"
+            },
+            {
+              "time": 0.8667,
+              "color": "e9fffcff"
+            },
+            {
+              "time": 1.6667,
+              "color": "76dffe59"
+            }
+          ]
+        },
+        "dolly_element4": {
+          "color": [
+            {
+              "color": "5bd7ff31"
+            },
+            {
+              "time": 0.6667,
+              "color": "e9fffcff"
+            },
+            {
+              "time": 1.6667,
+              "color": "5bd7ff31"
+            }
+          ]
+        },
+        "glow_2": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff7c"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "glow_3": {
+          "color": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.9333,
+              "color": "ffffffa7"
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "glow_4": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffff56",
+              "curve": 0.25,
+              "c3": 0.936,
+              "c4": 0.65
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "glowring_00018": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "color": "ffffffff",
+              "curve": 0,
+              "c2": 0.32,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "glowring_18": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1,
+              "color": "ffffffff",
+              "curve": 0,
+              "c2": 0.32,
+              "c3": 0.75
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "glow": {
+          "rotate": [
+            {
+              "time": 0.3333
+            },
+            {
+              "time": 1.1333,
+              "angle": -21.56
+            }
+          ],
+          "translate": [
+            {
+              "x": -0.2,
+              "y": -47.98
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.196,
+              "y": 0.196
+            }
+          ]
+        },
+        "glow2": {
+          "rotate": [
+            {
+              "time": 0.7333
+            },
+            {
+              "time": 1.2333,
+              "angle": -21.56
+            }
+          ],
+          "translate": [
+            {
+              "x": -22.38,
+              "y": 26.11
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.222,
+              "y": 0.222,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "x": 0.222,
+              "y": 0.222
+            },
+            {
+              "time": 1.2333,
+              "x": 0.277,
+              "y": 0.277
+            }
+          ]
+        },
+        "glow3": {
+          "rotate": [
+            {},
+            {
+              "time": 0.8333,
+              "angle": -21.56
+            }
+          ],
+          "translate": [
+            {
+              "x": 0.62,
+              "y": 12.36
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.396,
+              "y": 0.396
+            },
+            {
+              "time": 0.2667,
+              "x": 0.535,
+              "y": 0.535
+            },
+            {
+              "time": 0.8333,
+              "x": 0.309,
+              "y": 0.309
+            }
+          ]
+        },
+        "glowring": {
+          "rotate": [
+            {},
+            {
+              "time": 1.3333,
+              "angle": -68.18
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.164,
+              "y": 0.164,
+              "curve": 0,
+              "c2": 0.43,
+              "c3": 0.75
+            },
+            {
+              "time": 1.3333,
+              "x": 1.174,
+              "y": 1.174
+            }
+          ]
+        },
+        "glowring2": {
+          "rotate": [
+            {
+              "angle": 89.81,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "angle": 89.81
+            },
+            {
+              "time": 1.6667,
+              "angle": 17.89
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.164,
+              "y": 0.164,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0.164,
+              "y": 0.164,
+              "curve": 0,
+              "c2": 0.43,
+              "c3": 0.75
+            },
+            {
+              "time": 1.6667,
+              "x": 1.174,
+              "y": 1.174
+            }
+          ]
+        }
+      }
+    },
+    "marker_end": {
+      "slots": {
+        "dolly_bg": {
+          "color": [
+            {
+              "color": "ffffff4c"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff60"
+            }
+          ]
+        },
+        "dolly_element": {
+          "color": [
+            {
+              "color": "b0effdac"
+            },
+            {
+              "time": 0.1667,
+              "color": "97e8fe89"
+            }
+          ]
+        },
+        "dolly_element2": {
+          "color": [
+            {
+              "color": "94e7fe82"
+            },
+            {
+              "time": 0.1667,
+              "color": "7ae0fe54"
+            }
+          ]
+        },
+        "dolly_element3": {
+          "color": [
+            {
+              "color": "76dffe59"
+            },
+            {
+              "time": 0.1667,
+              "color": "5bd7ff31"
+            }
+          ]
+        },
+        "dolly_element4": {
+          "color": [
+            {
+              "color": "5bd7ff31"
+            },
+            {
+              "time": 0.1667,
+              "color": "7fe1fe6b"
+            }
+          ]
+        },
+        "glow_2": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "glow_3": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "glow_4": {
+          "color": [
+            {
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "root": {
+          "scale": [
+            {},
+            {
+              "time": 0.0667,
+              "x": 1.2,
+              "y": 1.2
+            },
+            {
+              "time": 0.1667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "marker_open": {
+      "slots": {
+        "dolly_bg": {
+          "color": [
+            {
+              "color": "ffffff76"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff6b"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff4c"
+            }
+          ]
+        },
+        "dolly_element": {
+          "color": [
+            {
+              "color": "e0fcfcf5"
+            },
+            {
+              "time": 0.3333,
+              "color": "b0effdac"
+            }
+          ]
+        },
+        "dolly_element2": {
+          "color": [
+            {
+              "color": "e9fffcff"
+            },
+            {
+              "time": 0.2333,
+              "color": "c3f4fdc3"
+            },
+            {
+              "time": 0.3333,
+              "color": "94e7fe82"
+            }
+          ]
+        },
+        "dolly_element3": {
+          "color": [
+            {
+              "color": "e9fffcff"
+            },
+            {
+              "time": 0.1,
+              "color": "a6ecfd98"
+            },
+            {
+              "time": 0.3333,
+              "color": "76dffe59"
+            }
+          ]
+        },
+        "dolly_element4": {
+          "color": [
+            {
+              "color": "8ae4fe6b"
+            },
+            {
+              "time": 0.3333,
+              "color": "5bd7ff31"
+            }
+          ]
+        },
+        "glow_2": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff55"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "glow_3": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff55"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "glow_4": {
+          "color": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff55"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "root": {
+          "scale": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1,
+              "x": 1.2,
+              "y": 1.2
+            },
+            {
+              "time": 0.2667
+            }
+          ]
+        },
+        "glow": {
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1667,
+              "x": 0.807,
+              "y": 0.807
+            },
+            {
+              "time": 0.3,
+              "x": 0.535,
+              "y": 0.535
+            }
+          ]
+        },
+        "glow2": {
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1667,
+              "x": 0.807,
+              "y": 0.807
+            },
+            {
+              "time": 0.3,
+              "x": 0.535,
+              "y": 0.535
+            }
+          ]
+        },
+        "glow3": {
+          "scale": [
+            {
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1667,
+              "x": 0.807,
+              "y": 0.807
+            },
+            {
+              "time": 0.3,
+              "x": 0.535,
+              "y": 0.535
+            }
+          ]
+        }
+      }
+    }
+  }
+}
