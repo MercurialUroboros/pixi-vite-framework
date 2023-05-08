@@ -1,12 +1,11 @@
-import { Container, Application } from "pixi.js"
+import { Application } from "pixi.js"
 import { assetLoaderInstance } from "./AssetLoader"
+import { sceneManagerInstance } from "./SceneManager"
+import { LoadingScene } from "../scenes/Loading.scene"
+import { GameScene } from "../scenes/Game.scene"
 
-/**
- * The entry point for the app
- */
 class App extends Application {
-  // private readonly viewPortRatio = GAME_VIEWPORT[0] / GAME_VIEWPORT[1]
-  private readonly app = new Container()
+  private sceneManager = sceneManagerInstance
 
   constructor() {
     super({
@@ -17,13 +16,18 @@ class App extends Application {
       autoDensity: true,
       resolution: devicePixelRatio,
       width: window.innerWidth,
-      height: window.innerHeight,
+      height: window.innerHeight
     })
-    this.stage.addChild(this.app)
+  }
+
+  private async preload() {
+    await assetLoaderInstance.loadAssetsGroup("game")
+    this.sceneManager.addScenes([LoadingScene, GameScene], this)
   }
 
   public async init() {
-    await assetLoaderInstance.loadAssetsGroup("game")
+    await this.preload()
+    await this.sceneManager.switchScene(LoadingScene)
   }
 }
 
